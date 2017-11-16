@@ -1,5 +1,8 @@
 # image-diff
+[![Go Report Card](https://goreportcard.com/badge/github.com/olegfedoseev/image-diff)](https://goreportcard.com/report/github.com/olegfedoseev/image-diff)
+
 Allow you to calculate the difference between two images. Primarily for documents for now.
+
 
 You give it first image, like that:
 
