@@ -104,8 +104,5 @@ func writePng(img image.Image, filename string) error {
 	if err := png.Encode(&buf, img); err != nil {
 		return err
 	}
-	if err := ioutil.WriteFile(filename, buf.Bytes(), 0644); err != nil {
-		return err
-	}
-	return nil
+	return ioutil.WriteFile(filename, buf.Bytes(), 0644)
 }
